@@ -15,7 +15,7 @@ def test_program():
 
     assert in_arr == [7, 4, 9], "Expected [9, 7, 4] but got %r" % in_arr
 
-    print "All tests have passed!"
+    print("All tests have passed!")
 
 
 test_program()

@@ -15,7 +15,6 @@ def test_program():
     target1 = 8
     ans1 = [2, 4]
 
-    #print(twoSum(in1, target1))
     assert two_sum(in1, target1) == ans1
 
     print("All tests pass")

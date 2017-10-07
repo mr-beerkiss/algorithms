@@ -2,10 +2,10 @@
 def selection_sort(arr):
     """ sorts input arr using selection sort """
     arr_len = len(arr)
-    for i in xrange(arr_len-1):
+    for i in range(arr_len-1):
         min_index = i
         min_value = arr[i]
-        for j in xrange(min_index + 1, arr_len):
+        for j in range(min_index + 1, arr_len):
             if arr[j] < min_value:
                 min_value = arr[j]
                 min_index = j
@@ -46,9 +46,6 @@ def test_program():
     assert in_arr == ex_arr, "Expected %r but got %r" % (ex_arr, in_arr)
 
 
-    print "All tests have passed"
-
-
+    print("All tests have passed")
 
 test_program()
-            

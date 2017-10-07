@@ -9,9 +9,9 @@ def binary_search(arr, target):
 
     while max_index >= min_index:
         if counter >= bail:
-            print "Bail condition hit :("
+            print("Bail condition hit :(")
             return -1
-        mid = min_index + ((max_index - min_index)/2)
+        mid = int(min_index + ((max_index - min_index)/2))
         if arr[mid] == target:
             return mid
         elif arr[mid] > target:            
@@ -43,6 +43,6 @@ def test_program():
     res = binary_search(in3, target3)
     assert res == ans3, "expected %d, got %d" % (ans3, res)
 
-    print "All tests have passed"
+    print("All tests have passed")
 
 test_program()

@@ -23,6 +23,6 @@ def test_program():
 
     assert is_palindrome("tattarrattat"), "Exepected tattarrattat to be a palindrom but function returned False"
 
-    print "All tests have passed"
+    print("All tests have passed")
 
 test_program()
