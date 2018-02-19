@@ -31,6 +31,6 @@ def test_program(test_factorial):
     ans = test_factorial(10)
     assert ans == 3628800, "Expected 3628800 but got %d" %ans
 
-    print "All tests passed"
+    print("All tests passed")
 
 test_program(factorial)

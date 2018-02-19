@@ -34,6 +34,6 @@ def test_program():
     exp = 10 ** -1
     assert ans == exp, "Expected %d but got %d" % (ans, exp)
 
-    print "All tests have passed"
+    print("All tests have passed")
 
 test_program()
